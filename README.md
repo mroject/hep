@@ -2,7 +2,7 @@
 hep protocol parsing,support hep v1/v2/v3
 
 Usage:
-
+```
 use hep::{Chunk,CapProtoType,parse_packet};
 use std::net::UdpSocket;
 
@@ -43,3 +43,4 @@ fn main() -> std::io::Result<()> {
         }
     }
 }
+```
