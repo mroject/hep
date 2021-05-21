@@ -1,0 +1,13 @@
+[package]
+name = "hep"
+version = "0.1.0"
+authors = ["zhang jun <z0413j@outlook.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "hep protocol parsing,support hep v1/v2/v3"
+documentation = ""
+repository = ""
+
+[dependencies]
+byteorder = "1.4.3"
+log = "0.4.14"
